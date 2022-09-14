@@ -9,7 +9,7 @@ public class CheckMangoTreeOrNot {
         int cols = s.nextInt();
         int treeNumber = s.nextInt();
 
-        if( (treeNumber >= 1 && treeNumber <= cols) || (treeNumber % rows == 0) || (treeNumber % rows == 1) ){
+        if( (treeNumber >= 1 && treeNumber <= cols) || (treeNumber % cols == 0) || (treeNumber % cols == 1) ){
             System.out.println("yes");
         }
         else{
