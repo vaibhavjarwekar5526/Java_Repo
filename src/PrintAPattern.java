@@ -4,8 +4,8 @@ public class PrintAPattern {
 
         String res = "";
 
-        for(int i=0; i<alphabetArr.length; i++){
-            res += alphabetArr[i];
+        for(String str: alphabetArr){
+            res += str;
             System.out.println(res);
         }
     }
